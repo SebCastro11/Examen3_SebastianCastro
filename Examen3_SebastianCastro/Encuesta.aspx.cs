@@ -14,7 +14,7 @@ namespace Examen3_SebastianCastro
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblMensaje.Visible = false;
         }
 
         protected void btnAgregar_Click(object sender, EventArgs e)
